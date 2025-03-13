@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Minyue Dai"
-description              : "I am a Ph.D. student in Computer Science at Fudan University, advised by Dahua Lin, Bo Dai, and Jingbo Wang. My research focuses on motion and embodied intelligence."
+description              : 
 repository               : "Jixiii/Jixiii.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -25,7 +25,7 @@ author:
   avatar           : "images/android-chrome-512x512.png"
   bio              : "Fudan University"
   location         : "Shanghai, China"
-  employer         :
+  employer         : 
   pubmed           : 
   # googlescholar    : "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
   googlescholar    : 
@@ -54,10 +54,11 @@ author:
   tumblr           :
   twitter          : 
   vine             :
-  weibo            :
+  weibo            : 
   xing             :
   youtube          :
   wikipedia        :
+  wechat           : "jixi-summer"
 
 
 # Reading Files
