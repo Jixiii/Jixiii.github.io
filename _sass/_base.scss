@@ -14,6 +14,7 @@ body {
   color: $text-color;
   font-family: $global-font-family;
   line-height: 1.5;
+  font-size: 20px;
 
   &.overflow--hidden {
     /* when primary navigation is visible, the content in the background won't scroll */
@@ -61,6 +62,7 @@ small, .small {
 p {
   margin-bottom: 0.5em;
 }
+
 
 u,
 ins {
