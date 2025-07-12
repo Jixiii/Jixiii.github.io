@@ -16,6 +16,7 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <span class='anchor' id='about-me'></span>
+**Minyue Dai  代珉玥**
 
 I am a first-year Ph.D. student in Computer Science at Fudan University, jointly trained by Fudan University and the Shanghai Artificial Intelligence Laboratory. I am fortunate to be advised by Dahua Lin, Bo Dai, and Jingbo Wang. 
 
@@ -31,8 +32,7 @@ My research interest includes neural machine translation and computer vision. I 
 - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 
 # 📝 Publications 
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/paper/gotozero.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV 2025</div><img src='images/paper/gotozero.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Go to Zero: Towards Zero-shot Motion Generation with Million-scale Data](https://vankouf.github.io/MotionMillion/)
@@ -90,4 +90,4 @@ Jingbo Wang, Junting Dong, Hua Zou
 - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
 
 # 💻 Internships
-- *2024.1 - now*, [Shanghai Artificial INtelligence Laboratory](https://www.shlab.org.cn/), China.
+- *2024.1 - now*, [Shanghai Artificial Intelligence Laboratory](https://www.shlab.org.cn/), China.
