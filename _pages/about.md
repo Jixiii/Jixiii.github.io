@@ -32,6 +32,20 @@ My research interest includes neural machine translation and computer vision. I 
 
 # 📝 Publications 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/paper/gotozero.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Go to Zero: Towards Zero-shot Motion Generation with Million-scale Data](https://vankouf.github.io/MotionMillion/)
+
+Ke Fan, Shulin Lu, **Minyue Dai**, Runyi Yu, Lixing Xiao, Zhiyang Dou, Junting Dong, Lizhuang Ma, Jingbo Wang
+
+[**Project**](https://vankouf.github.io/MotionMillion/)&nbsp;&nbsp;&nbsp;<strong><span class='show_paper_citations'></span></strong>
+[**Paper**](https://arxiv.org/abs/2507.07095) <strong><span class='show_paper_citations'></span></strong>
+
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/paper/MIBPhase.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
