@@ -83,6 +83,7 @@ Jingbo Wang, Junting Dong, Hua Zou
 # 📖 Educations
 - *2024.09 - now*, School of Computer Science Fudan University 
 - *2020.09 - 2024.06*, School of Software Engineering Xi'an Jiaotong University
+  - GPA: 3.97/4.30, Rank: 1/140
 
 <!-- # 💬 Invited Talks
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
