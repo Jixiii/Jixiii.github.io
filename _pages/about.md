@@ -16,11 +16,10 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <span class='anchor' id='about-me'></span>
-**Minyue Dai  代珉玥**
 
-I am a first-year Ph.D. student in Computer Science at Fudan University, jointly trained by Fudan University and the Shanghai Artificial Intelligence Laboratory. I am fortunate to be advised by Dahua Lin, Bo Dai, and Jingbo Wang. 
+I am a first-year Ph.D. student in Computer Science at Fudan University, jointly trained by Fudan University and the Shanghai Artificial Intelligence Laboratory. I am fortunate to be advised by Dahua Lin, Bo Dai, and Jingbo Wang. I completed my undergraduate studies at the School of Software Engineering, Xi'an Jiaotong University. Currently, I am interning at the Shanghai Artificial Intelligence Laboratory.
 
-My research focuses on exploring the frontiers of artificial intelligence, particularly in motion understanding and embodied intelligence. I completed my undergraduate studies at the School of Software Engineering, Xi’an Jiaotong University. Currently, I am interning at the Shanghai Artificial Intelligence Laboratory.
+My research focuses on exploring the frontiers of artificial intelligence, particularly in motion understanding and embodied intelligence. 
 
 <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
 
@@ -37,7 +36,7 @@ My research interest includes neural machine translation and computer vision. I 
 
 [Go to Zero: Towards Zero-shot Motion Generation with Million-scale Data](https://vankouf.github.io/MotionMillion/)
 
-Ke Fan, Shulin Lu, **Minyue Dai**, Runyi Yu, Lixing Xiao, Zhiyang Dou, Junting Dong, Lizhuang Ma, Jingbo Wang
+Ke Fan, Shunlin Lu, **Minyue Dai**, Runyi Yu, Lixing Xiao, Zhiyang Dou, Junting Dong, Lizhuang Ma, Jingbo Wang
 
 [**Project**](https://vankouf.github.io/MotionMillion/)&nbsp;&nbsp;&nbsp;<strong><span class='show_paper_citations'></span></strong>
 [**Paper**](https://arxiv.org/abs/2507.07095) <strong><span class='show_paper_citations'></span></strong>
