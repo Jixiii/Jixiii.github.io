@@ -31,7 +31,7 @@ My research interest includes neural machine translation and computer vision. I 
 - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 
 # 📝 Publications 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV 2025</div><img src='images/paper/gotozero.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV 2025 Highlight</div><img src='images/paper/gotozero.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Go to Zero: Towards Zero-shot Motion Generation with Million-scale Data](https://vankouf.github.io/MotionMillion/)
@@ -50,7 +50,7 @@ Ke Fan, Shunlin Lu, **Minyue Dai**, Runyi Yu, Lixing Xiao, Zhiyang Dou, Junting 
 
 [Towards Synthesized and Editable Motion In-Betweening Through Part-Wise Phase Representation](https://jixiii.github.io/MIB-BodyPartPhase/)
 
-**Minyue Dai**, Jingbo Wang, Ke Fan, Bin Ji, Haoyu Zhao, Junting Dong, Bo Dai
+**Minyue Dai**, Ke Fan, Bin Ji, Haoyu Zhao, Junting Dong, Jingbo Wang, Bo Dai
 
 [**Project**](https://jixiii.github.io/MIB-BodyPartPhase/)&nbsp;&nbsp;&nbsp;<strong><span class='show_paper_citations'></span></strong>
 [**Paper**](http://arxiv.org/abs/2503.08180) <strong><span class='show_paper_citations'></span></strong>
