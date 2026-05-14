@@ -1,93 +1,181 @@
 ---
 permalink: /
+classes: art-home-page
 title: ""
 excerpt: ""
-author_profile: true
-redirect_from: 
+author_profile: false
+redirect_from:
   - /about/
   - /about.html
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
+<div class="art-home">
+  <span class="anchor" id="about-me"></span>
+  <div class="art-cursor-glow" data-cursor-glow aria-hidden="true"></div>
 
-<span class='anchor' id='about-me'></span>
+  <section class="art-hero" data-art-scene>
+    <div class="art-hero__wash art-hero__wash--one" data-depth="18"></div>
+    <div class="art-hero__wash art-hero__wash--two" data-depth="-14"></div>
+    <div class="art-hero__grid" aria-hidden="true"></div>
 
-I am a first-year Ph.D. student in Computer Science at Fudan University, jointly trained by Fudan University and the Shanghai Artificial Intelligence Laboratory. I am fortunate to be advised by Dahua Lin, Bo Dai, and Jingbo Wang. I completed my undergraduate studies at the School of Software Engineering, Xi'an Jiaotong University. Currently, I am interning at the Shanghai Artificial Intelligence Laboratory.
+    <div class="art-hero__copy reveal-on-scroll">
+      <p class="art-kicker">Motion Generation / Humanoid Motion</p>
+      <h1>Minyue Dai</h1>
+      <p class="art-hero__lead">
+        I am a second-year Ph.D. student in Computer Science at Fudan University,
+        jointly trained by Fudan University and Shanghai Artificial Intelligence
+        Laboratory. I am fortunate to be advised by Dahua Lin, Bo Dai, and Jingbo Wang.
+      </p>
+      <p class="art-hero__note">
+        My research focuses on generative and controllable human motion, with an
+        emphasis on motion synthesis, motion editing, and humanoid robot motion.
+      </p>
+      <div class="art-hero__actions">
+        <a href="#publications">Publications</a>
+        <a href="mailto:daiminyue@pjlab.org.cn">Email</a>
+      </div>
+    </div>
 
-My research focuses on exploring the frontiers of artificial intelligence, particularly in motion understanding and embodied intelligence. 
+    <div class="art-hero__visual" aria-hidden="true">
+      <div class="art-orbit" data-depth="24">
+        <span></span>
+        <span></span>
+      </div>
+      <div class="art-portrait" data-depth="-20">
+        <img src="images/dmy.jpeg" alt="">
+      </div>
+      <div class="art-hero-card art-hero-card--primary" data-depth="12">
+        <span>New Paper</span>
+        <strong>Controllable Text-to-Motion Generation via Modular Body-Part Phase Control</strong>
+      </div>
+      <div class="art-hero-card art-hero-card--secondary" data-depth="-10">
+        <span>Focus</span>
+        <strong>Motion generation, part-wise control, humanoid robot motion</strong>
+      </div>
+    </div>
+  </section>
 
-<!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+  <section class="art-section" id="publications">
+    <div class="art-section__heading reveal-on-scroll">
+      <p class="art-kicker">Selected Work</p>
+      <h2>Publications</h2>
+    </div>
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
+    <div class="art-paper-grid">
+      <article class="art-paper art-paper--featured reveal-on-scroll">
+        <a class="art-paper__image" href="https://jixiii.github.io/bp-phase-project-page/">
+          <span class="art-paper__badge">arXiv 2026</span>
+          <img src="images/paper/bpphase.png" alt="Controllable Text-to-Motion Generation via Modular Body-Part Phase Control preview">
+        </a>
+        <div class="art-paper__body">
+          <h3><a href="https://jixiii.github.io/bp-phase-project-page/">Controllable Text-to-Motion Generation via Modular Body-Part Phase Control</a></h3>
+          <p><strong>Minyue Dai</strong>, Ke Fan, Anyi Rao, Jingbo Wang, Bo Dai</p>
+          <div class="art-paper__links">
+            <a href="https://jixiii.github.io/bp-phase-project-page/">Project</a>
+            <a href="https://arxiv.org/abs/2603.19795">Paper</a>
+          </div>
+        </div>
+      </article>
 
+      <article class="art-paper reveal-on-scroll">
+        <a class="art-paper__image" href="https://vankouf.github.io/MotionMillion/">
+          <span class="art-paper__badge">ICCV 2025 Highlight</span>
+          <img src="images/paper/gotozero.png" alt="Go to Zero preview">
+        </a>
+        <div class="art-paper__body">
+          <h3><a href="https://vankouf.github.io/MotionMillion/">Go to Zero: Towards Zero-shot Motion Generation with Million-scale Data</a></h3>
+          <p>Ke Fan, Shunlin Lu, <strong>Minyue Dai</strong>, Runyi Yu, Lixing Xiao, Zhiyang Dou, Junting Dong, Lizhuang Ma, Jingbo Wang</p>
+          <div class="art-paper__links">
+            <a href="https://vankouf.github.io/MotionMillion/">Project</a>
+            <a href="https://arxiv.org/abs/2507.07095">Paper</a>
+          </div>
+        </div>
+      </article>
 
-<!-- # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
+      <article class="art-paper reveal-on-scroll">
+        <a class="art-paper__image" href="https://jixiii.github.io/MIB-BodyPartPhase/">
+          <span class="art-paper__badge">arXiv 2025</span>
+          <img src="images/paper/MIBPhase.png" alt="Motion In-Betweening preview">
+        </a>
+        <div class="art-paper__body">
+          <h3><a href="https://jixiii.github.io/MIB-BodyPartPhase/">Towards Synthesized and Editable Motion In-Betweening Through Part-Wise Phase Representation</a></h3>
+          <p><strong>Minyue Dai</strong>, Ke Fan, Bin Ji, Haoyu Zhao, Junting Dong, Jingbo Wang, Bo Dai</p>
+          <div class="art-paper__links">
+            <a href="https://jixiii.github.io/MIB-BodyPartPhase/">Project</a>
+            <a href="http://arxiv.org/abs/2503.08180">Paper</a>
+          </div>
+        </div>
+      </article>
 
-# 📝 Publications 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV 2025 Highlight</div><img src='images/paper/gotozero.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+      <article class="art-paper reveal-on-scroll">
+        <a class="art-paper__image" href="https://yinkangning0124.github.io/Humanoid-UniTracker/">
+          <span class="art-paper__badge">CoRL 2025</span>
+          <img src="images/paper/unitracker_main.png" alt="UniTracker preview">
+        </a>
+        <div class="art-paper__body">
+          <h3><a href="https://yinkangning0124.github.io/Humanoid-UniTracker/">UniTracker: Learning Universal Whole-Body Motion Tracker for Humanoid Robots</a></h3>
+          <p>Kangning Yin, Weishuai Zeng, Ke Fan, <strong>Minyue Dai</strong>, Zirui Wang, Qiang Zhang, Zheng Tian, Jingbo Wang, Jiangmiao Pang, Weinan Zhang</p>
+          <div class="art-paper__links">
+            <a href="https://yinkangning0124.github.io/Humanoid-UniTracker/">Project</a>
+            <a href="https://arxiv.org/abs/2507.07356">Paper</a>
+          </div>
+        </div>
+      </article>
 
-[Go to Zero: Towards Zero-shot Motion Generation with Million-scale Data](https://vankouf.github.io/MotionMillion/)
+      <article class="art-paper reveal-on-scroll">
+        <a class="art-paper__image" href="https://arxiv.org/abs/2506.05338">
+          <span class="art-paper__badge">ICRA 2026</span>
+          <img src="images/paper/BFM_main.png" alt="Behavior Foundation Model preview">
+        </a>
+        <div class="art-paper__body">
+          <h3><a href="https://bfm4humanoid.github.io/">Behavior Foundation Model for Humanoid Robots</a></h3>
+          <p>Weishuai Zeng, Shunlin Lu, Kangning Yin, Xiaojie Niu, <strong>Minyue Dai</strong>, Jingbo Wang, Jiangmiao Pang</p>
+          <div class="art-paper__links">
+            <a href="https://bfm4humanoid.github.io/">Project</a>
+            <a href="https://arxiv.org/abs/2506.05338">Paper</a>
+          </div>
+        </div>
+      </article>
 
-Ke Fan, Shunlin Lu, **Minyue Dai**, Runyi Yu, Lixing Xiao, Zhiyang Dou, Junting Dong, Lizhuang Ma, Jingbo Wang
+      <article class="art-paper reveal-on-scroll">
+        <a class="art-paper__image" href="https://arxiv.org/abs/2503.07281">
+          <span class="art-paper__badge">arXiv 2025</span>
+          <img src="images/paper/smap.jpg" alt="SMAP preview">
+        </a>
+        <div class="art-paper__body">
+          <h3><a href="https://arxiv.org/abs/2503.07281">SMAP: Self-supervised Motion Adaptation for Physically Plausible Humanoid Whole-body Control</a></h3>
+          <p>Haoyu Zhao, Sixu Lin, Qingwei Ben, <strong>Minyue Dai</strong>, Hao Fei, Jiangmiao Pang, Jingbo Wang, Junting Dong, Hua Zou</p>
+          <div class="art-paper__links">
+            <a href="https://smap-project.github.io/">Project</a>
+            <a href="https://arxiv.org/abs/2503.07281">Paper</a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
 
-[**Project**](https://vankouf.github.io/MotionMillion/)&nbsp;&nbsp;&nbsp;<strong><span class='show_paper_citations'></span></strong>
-[**Paper**](https://arxiv.org/abs/2507.07095) <strong><span class='show_paper_citations'></span></strong>
+  <section class="art-section art-section--info">
+    <div class="art-info-grid">
+      <article class="art-info-card reveal-on-scroll" id="honors-and-awards">
+        <span>01</span>
+        <h2>Honors and Awards</h2>
+        <p>2021 National Scholarship, Education Ministry of China</p>
+        <p>2022 National Scholarship, Education Ministry of China</p>
+      </article>
 
+      <article class="art-info-card reveal-on-scroll" id="educations">
+        <span>02</span>
+        <h2>Education</h2>
+        <p>2024.09 - now, School of Computer Science, Fudan University</p>
+        <p>2020.09 - 2024.06, School of Software Engineering, Xi'an Jiaotong University</p>
+        <p>GPA: 3.97/4.30, Rank: 1/140</p>
+      </article>
 
+      <article class="art-info-card reveal-on-scroll" id="internships">
+        <span>03</span>
+        <h2>Internships</h2>
+        <p>2024.1 - now, <a href="https://www.shlab.org.cn/">Shanghai Artificial Intelligence Laboratory</a>, China</p>
+      </article>
+    </div>
+  </section>
 </div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/paper/MIBPhase.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Towards Synthesized and Editable Motion In-Betweening Through Part-Wise Phase Representation](https://jixiii.github.io/MIB-BodyPartPhase/)
-
-**Minyue Dai**, Ke Fan, Bin Ji, Haoyu Zhao, Junting Dong, Jingbo Wang, Bo Dai
-
-[**Project**](https://jixiii.github.io/MIB-BodyPartPhase/)&nbsp;&nbsp;&nbsp;<strong><span class='show_paper_citations'></span></strong>
-[**Paper**](http://arxiv.org/abs/2503.08180) <strong><span class='show_paper_citations'></span></strong>
-
-
-</div>
-</div>
-
-<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/paper/smap.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[SMAP: Self-supervised Motion Adaptation for Physically Plausible Humanoid Whole-body Control](https://smap-project.github.io/)
-
-Haoyu Zhao, Sixu Lin, Qingwei Ben, **Minyue Dai**, Hao Fei, Jiangmiao Pang,
-Jingbo Wang, Junting Dong, Hua Zou
-
-[**Project**](https://smap-project.github.io/)&nbsp;&nbsp;&nbsp;<strong><span class='show_paper_citations'></span></strong>
-
-
-</div>
-</div> -->
-
-
-
-
-# 🎖 Honors and Awards
-- *2021* National Scholarship, Education Ministry of China 
-- *2022* National Scholarship, Education Ministry of China 
-
-# 📖 Educations
-- *2024.09 - now*, School of Computer Science Fudan University 
-- *2020.09 - 2024.06*, School of Software Engineering Xi'an Jiaotong University
-  - GPA: 3.97/4.30, Rank: 1/140
-
-<!-- # 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
-
-# 💻 Internships
-- *2024.1 - now*, [Shanghai Artificial Intelligence Laboratory](https://www.shlab.org.cn/), China.

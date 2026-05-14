@@ -12,7 +12,7 @@ layout: compress
     <link href="https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400..700&display=swap" rel="stylesheet">
   </head>
 
-  <body>
+  <body{% if page.classes %} class="{{ page.classes }}"{% endif %}>
 
     {% include browser-upgrade.html %}
     {% include masthead.html %}
